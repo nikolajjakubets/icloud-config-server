@@ -1,6 +1,6 @@
 # 配置运行端口号
 server:
-  port: 8871
+  port: 8872
 
 ribbon:
   eureka:
@@ -31,11 +31,11 @@ security:
     password: none
   oauth2:
     client:
-      accessTokenUri: http://localhost:8871/auth/oauth/token
-      userAuthorizationUri: http://localhost:8871/auth/oauth/authorize
+      accessTokenUri: http://localhost:8872/auth/oauth/token
+      userAuthorizationUri: http://localhost:8872/auth/oauth/authorize
       clientId: web-app
-      preEstablishedRedirectUri: http://localhost:8871/login
-      registeredRedirectUri: http://localhost:8871/login
+      preEstablishedRedirectUri: http://localhost:8872/login
+      registeredRedirectUri: http://localhost:8872/login
       useCurrentUri: false
 
     resource:
